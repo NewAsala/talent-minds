@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 from odoo import http
-from odoo.https import request
+from odoo.http import request
 
 
 class SpWebsite(http.Controller):
