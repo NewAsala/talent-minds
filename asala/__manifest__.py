@@ -3,7 +3,7 @@
 
 {
     'name': 'asala',
-    'version': '0.1',
+    'version': '1.0',
     'category': 'asala',
     'summary': 'asala',
     'website': 'https://www.odoo.com/app/asala',
