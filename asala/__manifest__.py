@@ -3,15 +3,11 @@
 
 {
     'name': 'asala',
-    'version': '1.1',
+    'version': '0.1',
     'category': 'asala',
-    'sequence': 1,
     'summary': 'asala',
     'website': 'https://www.odoo.com/app/asala',
-    'depends': [
-        'base_setup',
-        'web',
-    ],
+    'depends': ['base'],
     'data': [
         'views/asala.xml',
     ],
