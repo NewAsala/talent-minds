@@ -14,4 +14,6 @@
     'data': [
         'views/asala.xml',
     ],
+    'installable': True,
+    'license': 'LGPL-3',
 }
