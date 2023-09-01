@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_web_dev_asala_web_dev_asala,web_dev_asala.web_dev_asala,model_web_dev_asala_web_dev_asala,base.group_user,1,1,1,1
