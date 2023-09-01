@@ -7,7 +7,10 @@
     'category': 'asala',
     'summary': 'asala',
     'website': 'https://www.odoo.com/app/asala',
-    'depends': ['base'],
+    'depends': [
+        'base_setup',
+        'web',
+    ],
     'data': [
         'views/asala.xml',
     ],
