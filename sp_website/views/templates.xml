@@ -1,7 +1,7 @@
 <odoo>
     <data>
         <template id="test_page" name="Website Test" >
-            <t t-cal="website.website_preview">
+            <t t-call="website.website_preview">
                 Hi Asala ...
             </t>
         </template>
