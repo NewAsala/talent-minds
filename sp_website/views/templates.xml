@@ -1,6 +1,6 @@
 <odoo>
     <data>
-        <template id="test_page" name="Website Test" inherit_id="website.layout">
+        <template id="test_page" name="Website Test" inherit_id="web.layout">
                 Hi Asala ...
         </template>
 <!--
