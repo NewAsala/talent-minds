@@ -1,7 +1,7 @@
 <odoo>
     <data>
         <template id="test_page" name="Website Test">
-            <t>
+            <t t-call="website.layout">
                 Hi Asala ...
             </t>
         </template>
