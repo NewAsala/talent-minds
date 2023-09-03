@@ -1,9 +1,7 @@
 <odoo>
     <data>
-        <template id="test_page" name="Website Test">
-            <t t-call="website.layout">
+        <template id="test_page" name="Website Test" inherit_id="website.layout">
                 Hi Asala ...
-            </t>
         </template>
 <!--
         <template id="listing">
