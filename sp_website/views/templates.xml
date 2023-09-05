@@ -1,5 +1,10 @@
 <odoo>
     <data>
+        <template id="test_page" >
+            <t t-call="website.layout">
+                Hi Asala ...
+            </t>
+        </template>
 <!--
         <template id="listing">
           <ul>

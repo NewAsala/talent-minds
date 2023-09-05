@@ -2,10 +2,11 @@
 # from odoo import http
 
 
-# class SpWebsite(http.Controller):
-#     @http.route('/sp_website/sp_website', auth='public')
-#     def index(self, **kw):
-#         return "Hello, world"
+class SpWebsite(http.Controller):
+    @http.route('/sp_website/sp_website', auth='public',website = True)
+    def index(self, **kw):
+        #return "Hello, world"
+        return http.request.render('sp_website.test_page',{})
 
 #     @http.route('/sp_website/sp_website/objects', auth='public')
 #     def list(self, **kw):
