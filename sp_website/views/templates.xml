@@ -3,7 +3,11 @@
   
       <template id="test_page" name="Website Test" >
           <t t-call="website.layout">
-                Hi Asala ...
+              <div class="oe_structure">
+                  <div class="container">
+                      Hi Asala ...
+                  </div>
+              </div>
           </t>
         </template>
          
