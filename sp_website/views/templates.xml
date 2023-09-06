@@ -1,8 +1,5 @@
 <odoo>
     <data>
-        <odoo>
-    <data>
-  
       <template id="test_page" name="Website Test" >
           <t t-call="website.layout">
               <div class="oe_structure">
