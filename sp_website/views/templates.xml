@@ -4,7 +4,7 @@
           <t t-call="website.layout">
               <div class="oe_structure">
                   <div class="container">
-                     Hi sos ...
+                     Hi Asala ...
                   </div>
               </div>
           </t>
