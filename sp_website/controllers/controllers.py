@@ -6,7 +6,7 @@ class SpWebsite(http.Controller):
     def index(self, **kw):
         #return "Hello, world"
         #return http.request.render('sp_website.test_page',{})
-        categories = request.evn['product.public.category'].search([])
+        categories = request.evn['public.category'].search([])
         cat_val =
         {
             'cat':categories,
