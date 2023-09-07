@@ -2,11 +2,11 @@
 from odoo import http
 
 class SpWebsite(http.Controller):
-    @http.route('/', auth='public',website=True)
+    @http.route('/',type='http', auth='public',website=True)
     def index(self, **kw):
         #return "Hello, world"
         #return http.request.render('sp_website.test_page',{})
-        categories = request.evn['public.category'].search([])
+        categories = request.env['public.category'].search([])
         cat_val =
         {
             'cat':categories,
