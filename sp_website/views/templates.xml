@@ -6,7 +6,7 @@
               
               <div class="oe_structure">
                   <div class="container">
-                      <t t-foreach="cat_val" t-as="cat" >
+                      <t t-foreach="catVal" t-as="cat" >
                           <h3 t-field="cat.name"/>
                       </t>
                   </div>
