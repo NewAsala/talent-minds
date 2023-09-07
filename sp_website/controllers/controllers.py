@@ -5,7 +5,13 @@ class SpWebsite(http.Controller):
     @http.route('/', auth='public',website=True)
     def index(self, **kw):
         #return "Hello, world"
-        return http.request.render('sp_website.test_page',{})
+        #return http.request.render('sp_website.test_page',{})
+        categories = request.evn['product.public.category'].search([])
+        cat_val =
+        {
+            'cat':categories,
+        }
+        return http.request.render('sp_website.test_page',cat_val)
 
 #     @http.route('/sp_website/sp_website/objects', auth='public')
 #     def list(self, **kw):

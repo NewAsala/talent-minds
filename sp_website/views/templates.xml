@@ -1,115 +1,18 @@
 <odoo>
     <data>
-  
       <template id="test_page" name="Website Test" >
           <t t-call="website.layout">
+              <div class="oe_structure"/>
+              
               <div class="oe_structure">
                   <div class="container">
-                      <div class="s_tabs_main row s_col_no_resize s_col_no_bgcolor">
-                <div class="s_tabs_nav mb-3 col-md-3">
-                    <ul class="ec-cat-tab-nav nav nav-pills flex-column" role="tablist">
-                        <li class="cat-item nav-item">
-                            <a class="cat-link nav-link" id="nav_tabs_link_1690817228044_273" data-bs-toggle="tab" href="#nav_tabs_content_1690817228044_273" role="tab" aria-controls="nav_tabs_content_1690817228044_273" aria-selected="false">
-                                <div class="cat-icons">
-                                    <img src="/web/image/532-752448b3/responsive5.png" alt="" class="cat-icon img img-fluid o_we_custom_image" data-original-id="1110" data-original-src="/web/image/489-fbbe2d84/cat_1_1.png" data-mimetype="image/png" data-resize-width="50" loading="lazy" style=""/>
-                                    <img src="/web/image/531-b010933f/responsive4.png" alt="" class="cat-icon-hover img img-fluid o_we_custom_image" data-original-id="563" data-original-src="/web/image/563-4eb76c62/ket-iicon2.png" data-mimetype="image/png" data-resize-width="48" loading="lazy" style=""/>
-                                </div>
-                                <div class="cat-desc">
-                                    <span>Electronics</span>
-                                    <span class="o_default_snippet_text"/>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="cat-item nav-item">
-                            <a class="cat-link nav-link" id="nav_tabs_link_1690817228045_274" data-bs-toggle="tab" href="#nav_tabs_content_1690817228045_274" role="tab" aria-controls="nav_tabs_content_1690817228045_274" aria-selected="false">
-                                <div class="cat-icons">
-                                   <img src="/web/image/560-0fa8b93b/fashin-iicon.png" alt="" class="cat-icon img img-fluid o_we_custom_image" data-original-id="1118" data-original-src="/web/image/490-f0c3f9da/cat_2_1.png" data-mimetype="image/png" data-resize-width="50" loading="lazy" style=""/>
-                                    <img src="/web/image/561-b7e26c6c/fashin-iicon2.png" alt="" class="cat-icon-hover img img-fluid o_we_custom_image" data-original-id="558" data-original-src="/web/image/558-e93ca352/fashin-iicon2.png" data-mimetype="image/png" data-resize-width="48" loading="lazy" style=""/>
-                                </div>
-                                <div class="cat-desc">
-                                    <span>Fashion</span>
-                                    <span class="o_default_snippet_text"/>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="cat-item nav-item">
-                            <a class="cat-link nav-link" id="nav_tabs_link_1690817228045_275" data-bs-toggle="tab" href="#nav_tabs_content_1690817228045_275" role="tab" aria-controls="nav_tabs_content_1690817228045_275" aria-selected="false">
-                                <div class="cat-icons">
-                                    <img src="/web/image/557-03b710be/toys-icon.png" alt="" class="cat-icon img img-fluid o_we_custom_image" data-original-id="1122" data-original-src="/web/image/492-1f767e5d/cat_3_1.png" data-mimetype="image/png" data-resize-width="50" loading="lazy" style=""/>
-                                    <img src="/web/image/556-a54f0c86/toys-icon2.png" alt="" class="cat-icon-hover img img-fluid o_we_custom_image" data-original-id="554" data-original-src="/web/image/554-9acd3dbf/toys-icon.png" data-mimetype="image/png" data-resize-width="48" loading="lazy" style=""/>
-                                </div>
-                                <div class="cat-desc">
-                                    <span>Toys</span>
-                                    <span class="o_default_snippet_text"/>
-                                </div>
-                            </a>
-                            </li>
-                            <li class="cat-item nav-item">
-                            <a class="cat-link nav-link active" id="nav_tabs_link_1690817228045_276" data-bs-toggle="tab" href="#nav_tabs_content_1690817228045_276" role="tab" aria-controls="nav_tabs_content_1690817228045_276" aria-selected="true">
-                                <div class="cat-icons">
-                                    <img src="/web/image/565-801e55cb/ket-iicon2.png" alt="" class="cat-icon img img-fluid o_we_custom_image" data-original-id="1123" data-original-src="/web/image/491-fc5a7950/cat_4_1.png" data-mimetype="image/png" data-resize-width="50" loading="lazy" style=""/>
-                                    <img src="/web/image/564-89b97a70/ket-iicon.png" alt="" class="cat-icon-hover img img-fluid o_we_custom_image" data-original-id="562" data-original-src="/web/image/562-4b86f6da/ket-iicon.png" data-mimetype="image/png" data-resize-width="48" loading="lazy" style=""/>
-                                </div>
-                                <div class="cat-desc">
-                                    <span>Kitchen</span>
-                                    <span class="o_default_snippet_text"/>
-                                </div>
-                            </a>
-                            </li>
-                    </ul>
-                </div>
-                <div class="s_tabs_content tab-content col-md-9">
-                    <div class="tab-pane fade" id="nav_tabs_content_1690817228044_273" role="tabpanel" aria-labelledby="nav_tabs_link_1690817228044_273">
-                        <div class="oe_structure oe_empty" data-editor-message-default="true" data-editor-message="DRAG BUILDING BLOCKS HERE">
-                            <section class="s_text_block pt0 pb0" style="background-image: none;" data-name="Text">
-                                <div class="s_allow_columns container">
-                                  <img src="/web/image/541-33d236d5/2.png" alt="" class="img img-fluid o_we_custom_image rounded" style="width: 100% !important;" data-original-id="537" data-original-src="/web/image/537-1c62540c/2.png" data-mimetype="image/png" data-resize-width="690" loading="lazy"/><br/>
-                                </div>
-                                <span class="panel-overlay">
-                                <a href="/shop/category/electronics-3" class="btn btn-primary" data-bs-original-title="" title="">View All</a>
-                            </span>
-                            </section>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="nav_tabs_content_1690817228045_274" role="tabpanel" aria-labelledby="nav_tabs_link_1690817228045_274">
-                        <div class="oe_structure oe_empty" data-editor-message-default="true" data-editor-message="DRAG BUILDING BLOCKS HERE">
-                            <section class="s_text_block" style="background-image: none;" data-name="Text">
-                                <div class="container s_allow_columns">
-                                    <p><img src="/web/image/539-b0f2c663/1.jpg" alt="" class="img img-fluid o_we_custom_image rounded" style="width: 100% !important;" data-original-id="488" data-original-src="/web/image/488-cedfe043/1.jpg" data-mimetype="image/jpeg" data-resize-width="690" loading="lazy"/><br/></p>
-                                </div>
-                                <span class="panel-overlay">
-                                <a href="/shop/category/fashion-6" class="btn btn-primary" data-bs-original-title="" title="">View All</a>
-                            </span>
-                            </section>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="nav_tabs_content_1690817228045_275" role="tabpanel" aria-labelledby="nav_tabs_link_1690817228045_275">
-                        <div class="oe_structure oe_empty" data-editor-message-default="true" data-editor-message="DRAG BUILDING BLOCKS HERE">
-                            <section class="s_text_block" style="background-image: none;" data-name="Text">
-                                <div class="s_allow_columns container">
-                                    <p><img src="/web/image/549-564d3000/toys.png" alt="" class="img img-fluid o_we_custom_image rounded" style="width: 100% !important;" data-original-id="546" data-original-src="/web/image/546-c7ddea82/toys.png" data-mimetype="image/png" data-resize-width="690" loading="lazy"/><br/></p>
-                                </div>
-                                <span class="panel-overlay">
-                                <a href="/shop/category/toys-4" class="btn btn-primary" data-bs-original-title="" title="">View All</a>
-                            </span>
-                            </section>
-                        </div>
-                    </div><div class="tab-pane fade active show" id="nav_tabs_content_1690817228045_276" role="tabpanel" aria-labelledby="nav_tabs_link_1690817228045_276">
-                        <div class="oe_structure oe_empty" data-editor-message-default="true" data-editor-message="DRAG BUILDING BLOCKS HERE">
-                            <section class="s_text_block pb0" style="background-image: none;" data-name="Text">
-                                <div class="s_allow_columns container">
-                                    <p><img src="/web/image/551-dfe386d6/kitchen.png" alt="" class="img img-fluid o_we_custom_image rounded" style="width: 100% !important;" data-original-id="547" data-original-src="/web/image/547-a9ba7c4c/kitchen.png" data-mimetype="image/png" data-resize-width="690" loading="lazy"/><br/></p>
-                                </div>
-                                <span class="panel-overlay">
-                                <a href="/shop/category/kitchen-5" class="btn btn-primary" data-bs-original-title="" title="">View All</a>
-                            </span>
-                            </section>
-                      </div>
-                    </div>
-                </div>
-            </div>
+                      <t t-foreach="cat_val" t-as="cat" >
+                          <t t-field="cat.name"/>
+                      </t>
                   </div>
               </div>
+              
+              <div class="oe_structure"/>
           </t>
         </template>
          
