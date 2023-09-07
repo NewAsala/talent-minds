@@ -6,8 +6,11 @@
               
               <div class="oe_structure">
                   <div class="container">
-                      <t t-foreach="catVal" t-as="cat" >
-                          <h3 t-field="cat.name"/>
+                      <t t-foreach="catVal" t-as="o" >
+                          <h3 t-field="o.name"/>
+                          <div>
+                              
+                          </div>
                       </t>
                   </div>
               </div>
