@@ -23,7 +23,8 @@
     'depends': [
         'base_setup',
         'web',
-        'ecommerce',
+        'products',
+        'website',
     ],
 
     # always loaded
