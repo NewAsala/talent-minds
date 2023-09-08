@@ -24,6 +24,7 @@
         'base_setup',
         'web',
         'website',
+        'eCommerce',
     ],
 
     # always loaded
