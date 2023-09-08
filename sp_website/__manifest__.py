@@ -23,7 +23,6 @@
     'depends': [
         'base_setup',
         'web',
-        'products',
         'website',
     ],
 
