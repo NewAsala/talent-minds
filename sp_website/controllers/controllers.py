@@ -6,7 +6,7 @@ class SpWebsite(http.Controller):
     def index(self, **kw):
         #return "Hello, world"
         #return http.request.render('sp_website.test_page',{})
-        categories = http.request.env['res.partner'].search([('limit', '=', 4)])
+        categories = http.request.env['res.partner'].search(domain=[], limit=4, offset=5, order='create_date asc')
         category = {'catVal':categories,}
         return http.request.render('sp_website.test_page',category)
 
