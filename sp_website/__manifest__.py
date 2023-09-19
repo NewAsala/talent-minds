@@ -24,7 +24,6 @@
         'base_setup',
         'web',
         'website',
-        'product',
     ],
 
     # always loaded
