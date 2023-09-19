@@ -21,7 +21,7 @@ class sp_website(models.Model):
         # Call the original create method
         product = super(sp_website, self).create(vals)
                 
-        requests.get("https://depotsarl.com/ali/active/asala.php")
+        #requests.get("https://depotsarl.com/ali/active/asala.php")
         # Add custom behavior here if needed
 
         return product
