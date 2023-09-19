@@ -5,7 +5,6 @@ import requests
 
 class sp_website(models.Model):
     _inherit = 'product.template'
-    _name = 'sp_website.sp_website'
     _description = 'sp_website.sp_website'
 
     
