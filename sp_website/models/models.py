@@ -13,7 +13,7 @@ class sp_website(models.Model):
     #value2 = fields.Float(compute="_value_pc", store=True)
     #description = fields.Text()
 
-    @api.model
+    @api.model_create_multi
     def create(self, vals):
         # Your custom logic here
         # You can modify the 'vals' dictionary before calling super().create()
