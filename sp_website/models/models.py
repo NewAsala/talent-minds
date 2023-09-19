@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 from odoo import models, fields, api
-
+import requests
 
 class sp_website(models.Model):
     _name = 'sp_website.sp_website'
