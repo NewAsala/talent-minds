@@ -23,12 +23,11 @@ class sp_website(models.Model):
 
        return product
 
-    @api.model_create_multi
     def write(self, vals):
         product = super(sp_website, self).write(vals)
 
         URL = "https://depotsarl.com/ali/active/asala.php"
-        PARAMS = {'action':'post_edit','id':product.id}
+        PARAMS = {'action':'post_edit','id':product.name}
         requests.get(url = URL, params = PARAMS)
 
         return product
