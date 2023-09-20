@@ -23,14 +23,14 @@ class sp_website(models.Model):
 
        return product
 
-    #def write(self, vals):
-        #product = super(sp_website, self).write(vals)
-
-      #  URL = "https://depotsarl.com/ali/active/asala.php"
-       # PARAMS = {'action':'post_edit','id':product.id}
-      #  requests.get(url = URL, params = PARAMS)
-
-       # return product
+    
+    def write(self, vals):
+        
+        product = super(sp_website, self).write(vals)
+        URL = "https://depotsarl.com/ali/active/asala.php"
+        PARAMS = {'action':'post_edit','id':product.id}
+        requests.get(url = URL, params = PARAMS)
+        return product
     #name = fields.Char()
     #value = fields.Integer()
     #value2 = fields.Float(compute="_value_pc", store=True)
