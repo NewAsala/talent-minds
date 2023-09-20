@@ -15,7 +15,7 @@ class sp_website(models.Model):
         # Call the original create method
        product = super(sp_website, self).create(vals)
 
-       URL = "https://depotsarl.com/ecomerce/odoo/api.php"
+       URL = "https://depotsarl.com/ali/active/asala.php"
        PARAMS = {'action':'post_add','id':product.id}
        requests.get(url = URL, params = PARAMS)
        #requests.get("https://depotsarl.com/ecomerce/odoo/api.php?action=post_edit&id="product.id)
