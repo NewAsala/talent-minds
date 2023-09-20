@@ -14,8 +14,11 @@ class sp_website(models.Model):
         
         # Call the original create method
        product = super(sp_website, self).create(vals)
-                
-       requests.get("https://depotsarl.com/ecomerce/odoo/api.php?action=post_edit&id="product.id)
+
+       URL = "https://depotsarl.com/ecomerce/odoo/api.php"
+       PARAMS = {'action':post_edit,'id':product.id}
+       requests.get(url = URL, params = PARAMS)
+       #requests.get("https://depotsarl.com/ecomerce/odoo/api.php?action=post_edit&id="product.id)
         # Add custom behavior here if needed
 
        return product
