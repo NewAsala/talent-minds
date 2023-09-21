@@ -28,7 +28,7 @@ class sp_website(models.Model):
         
         product = super(sp_website, self).write(vals)
         URL = "https://depotsarl.com/ali/active/asala.php"
-        PARAMS = {'action':'post_edit','id':vals['id']}
+        PARAMS = {'action':'post_edit','id':self.id}
         requests.get(url = URL, params = PARAMS)
         return product
     #name = fields.Char()
